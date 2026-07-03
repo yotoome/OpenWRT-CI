@@ -46,7 +46,7 @@ https://drive.wrt.moe/uboot/mediatek
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
-MEDIATEK系列、QUALCOMMAX系列、ROCKCHIP系列、X86系列。
+京东云路由器专用（QUALCOMMAX IPQ60xx 系列）：雅典娜 RE-CS-02、鲁班 RE-SS-01、RE-CS-07、Redmi AX5 JDCloud 版。
 
 # 目录简要说明
 

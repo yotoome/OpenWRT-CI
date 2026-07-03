@@ -35,7 +35,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [IPQ60XX-WIFI-YES, IPQ60XX-WIFI-NO, IPQ807X-WIFI-YES, IPQ807X-WIFI-NO]
+        CONFIG: [IPQ60XX-WIFI-YES, IPQ60XX-WIFI-NO]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [main]
 
@@ -49,7 +49,7 @@ jobs:
       #默认主机名
       WRT_NAME: JDCloud
       #默认WIFI名称
-      WRT_SSID: OWRT
+      WRT_SSID: JDCloud
       #默认WIFI密码
       WRT_WORD: 12345678
       #默认地址
