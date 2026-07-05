@@ -58,8 +58,6 @@ UPDATE_PACKAGE "theme-fluent" "LazuliKao/luci-theme-fluent" "main"
 
 #代理插件
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main" "" "luci-app-nikki"
-UPDATE_PACKAGE "OpenClash" "vernesong/OpenClash" "master" "" "luci-app-openclash openclash"
-UPDATE_PACKAGE "homeproxy" "immortalwrt/homeproxy" "master" "" "luci-app-homeproxy"
 
 #UPDATE_PACKAGE "athena-led" "unraveloop/JDC-AX6600-Athena-LED-Controller" "main"
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"

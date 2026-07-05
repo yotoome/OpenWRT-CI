@@ -8,8 +8,7 @@ CONFIG_PACKAGE_ca-bundle=y
 CONFIG_PACKAGE_firewall4=y
 CONFIG_PACKAGE_yq=y
 #代理插件
-CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-homeproxy=y
+CONFIG_PACKAGE_luci-app-nikki=y
 CONFIG_PACKAGE_sing-box=y
 CONFIG_PACKAGE_chinadns-ng=y
 CONFIG_PACKAGE_dnsmasq-full=y
