@@ -57,6 +57,7 @@ UPDATE_PACKAGE "shadcn" "eamonxg/luci-theme-shadcn" "main"
 UPDATE_PACKAGE "theme-fluent" "LazuliKao/luci-theme-fluent" "main"
 
 #代理插件
+UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main" "" "luci-app-nikki"
 UPDATE_PACKAGE "OpenClash" "vernesong/OpenClash" "master" "" "luci-app-openclash openclash"
 UPDATE_PACKAGE "homeproxy" "immortalwrt/homeproxy" "master" "" "luci-app-homeproxy"
 
