@@ -10,12 +10,6 @@ if [ -d *"luci-theme-argon"* ]; then
 
 	sed -i "s/primary '.*'/primary '#31a1a1'/; s/'0.2'/'0.5'/; s/'none'/'bing'/; s/'600'/'normal'/" ./luci-app-argon-config/root/etc/config/argon
 
-	#放大界面缩放比例（默认1.2，即120%）
-	ARGON_CSS=$(find ./luci-theme-argon/ -type f -name "cascade.css" 2>/dev/null)
-	if [ -f "$ARGON_CSS" ]; then
-		echo "html { zoom: 0.8; }" >> "$ARGON_CSS"
-		echo "argon zoom has been set!"
-	fi
 
 	cd $PKG_PATH && echo "theme-argon has been fixed!"
 fi
