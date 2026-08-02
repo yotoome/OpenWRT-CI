@@ -56,8 +56,11 @@ UPDATE_PACKAGE "noobwrt" "nooblk-98/luci-theme-noobwrt" "master"
 UPDATE_PACKAGE "shadcn" "eamonxg/luci-theme-shadcn" "main"
 UPDATE_PACKAGE "theme-fluent" "LazuliKao/luci-theme-fluent" "main"
 
-#代理插件
-UPDATE_PACKAGE "OpenClash" "vernesong/OpenClash" "master" "" "luci-app-openclash openclash"
+#代理插件 Nikki（nikki=mihomo封装, luci-app-nikki=界面, mihomo-meta=mihomo内核并 PROVIDES:mihomo）
+#仓库根目录无 Makefile，且 mihomo-meta 不含 "nikki" 关键字，UPDATE_PACKAGE 的 pkg 模式匹配不到，手动 clone 后拆分三子目录
+git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki.git
+cp -rf ./OpenWrt-nikki/nikki ./OpenWrt-nikki/luci-app-nikki ./OpenWrt-nikki/mihomo-meta ./
+rm -rf ./OpenWrt-nikki/
 
 #UPDATE_PACKAGE "athena-led" "unraveloop/JDC-AX6600-Athena-LED-Controller" "main"
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"

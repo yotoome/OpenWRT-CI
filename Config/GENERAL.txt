@@ -2,8 +2,9 @@
 CONFIG_PACKAGE_ca-bundle=y
 CONFIG_PACKAGE_firewall4=y
 CONFIG_PACKAGE_yq=y
-#代理插件
-CONFIG_PACKAGE_luci-app-openclash=y
+#代理插件（Nikki：luci-app-nikki + mihomo 内核）
+CONFIG_PACKAGE_luci-app-nikki=y
+CONFIG_PACKAGE_chinadns-ng=y
 CONFIG_PACKAGE_dnsmasq-full=y
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_coreutils-nohup=y
@@ -11,6 +12,8 @@ CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-mini-diskmanager=y
 CONFIG_PACKAGE_luci-app-partexp=y
+CONFIG_PACKAGE_luci-app-ttyd=y
+CONFIG_PACKAGE_ttyd=y
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 #参数调整
